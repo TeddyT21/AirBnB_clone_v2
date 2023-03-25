@@ -23,7 +23,6 @@ from os import getenv
 class TestConsole(unittest.TestCase):
     """this will test the console"""
 
-    
     @classmethod
     def setUpClass(cls):
         """setup for the test"""
