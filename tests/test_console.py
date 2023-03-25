@@ -23,7 +23,6 @@ from os import getenv
 class TestConsole(unittest.TestCase):
     """this will test the console"""
 
-
     @classmethod
     def setUpClass(cls):
         """setup for the test"""
@@ -269,5 +268,6 @@ class TestConsole(unittest.TestCase):
             """Test alternate destroy command inpout DB"""
             return True
 
+        
 if __name__ == "__main__":
     unittest.main()
