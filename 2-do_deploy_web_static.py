@@ -7,6 +7,7 @@ import os
 env.hosts = ["100.26.177.50", "34.204.81.253"]
 env.user = "ubuntu"
 
+
 def do_deploy(archive_path):
     """ Deploys archive to servers"""
     if not os.path.exists(archive_path):
